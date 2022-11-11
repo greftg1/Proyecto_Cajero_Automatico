@@ -1,7 +1,97 @@
+/* -----------------------login-------------------------*/
 .center-login{
     height:100vh;
     display:flex;
     align-items: center;
     align-content: center;
     justify-content: center;
+}
+/* -----------------Saldo-------------------------------*/
+.tam_saldo{
+    position: absolute;
+    top:320px;
+    left: 632px;
+    height: 50px;
+    width: 359px;
+}
+.borde{
+    border-color: black;
+    border: solid;
+    border-radius: 7px;
+    align-items: center;
+}
+/* -----------------------------------------------------*/
+.centrar{
+    height:12px;
+    height: 1500px;
+    width: 2000px;
+
+}
+.cntr_ob{
+    position: absolute;
+    top: 378px;
+    left: 632px;
+    height: 50px;
+    width: 359px;
+
+}
+.cntr_ob_2{
+    position: absolute;
+    top: 420px;
+    left: 640px;
+    height: 50px;
+    width: 359px;
+}
+.cntr_enviar{
+    position: absolute;
+    top: 420px;
+    left: 540px;
+    height: 50px;
+    width: 100px;
+    align-content: center;
+}
+.cntr_retirar{
+    position: absolute;
+    top: 420px;
+    left: 540px;
+    height: 50px;
+    width: 100px;
+    align-content: center;
+}
+.cntr_ob_3{
+    position: absolute;
+    top: 420px;
+    left: 641px;
+    height: 50px;
+    width: 359px;
+}
+.alt_img{
+    position: absolute;
+    top: 280px;
+}
+.alt_img_2{
+    position: absolute;
+    top: 240px;
+    left: 630px;
+}
+.tam{
+    height: 40px;
+    width: 459px; 
+}
+/* ------------------------Home--------------------------*/
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    justify-content:center;
+}
+.mar{
+    margin: 30px;
+}
+.tam_2{
+    height: 100%;
+}
+.fondo{
+    background-color: #ffc107;;
+
 }

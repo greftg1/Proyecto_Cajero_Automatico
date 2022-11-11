@@ -4,41 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script defer src="main.js"></script>
+    <title>Home</title>
+    <script defer src="./Login.js"></script>
     <link rel="stylesheet" href="stilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script defer src="./js/Canbios_pag.js"></script>
+
+
 </head>
 <body>
-    <div class="grid text-center">
-        <div class="card g-col-6 g-col-md-4" style="width: 20rem;">
+    <div class="grid">
+        <!------------------------------------------------------------------------------------------------------------------->
+        <div class="card mar" style="width: 20rem;">
             <img src="https://img.asmedia.epimg.net/resizer/RBsbaNmat6RBjVIiL9U5ESrINMs=/1952x1098/filters:focal(863x876:873x886)/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/EQCLFW7PZNCXZHD7ATMO7INJQM.jpg" class="card-img-top " alt="...">
             <div class="card-body">
             <h5 class="card-title">Consultar Saldo</h5>
-            <a id="Butom-1" href="#" onclick="Const_saldo()" class="btn btn-primary">IR</a>
+            <a id="Butom-1" href="#" onclick="Const_saldo()" class="btn btn-primary btn-warning text-white">IR</a>
             </div>
         </div>
-        <div class="card g-col-6 g-col-md-4" style="width: 20rem;">
-            <img src="https://assets.diarioconcepcion.cl/2022/03/Acreencias-bancarias-dinero-olvidado-bancos_-850x400.jpg" class="card-img-top" alt="...">
+        <!------------------------------------------------------------------------------------------------------------------->
+        <div class="card mar" style="width: 20rem;">
+            <img src="https://assets.diarioconcepcion.cl/2022/03/Acreencias-bancarias-dinero-olvidado-bancos_-850x400.jpg" class="card-img-top tam_2" alt="...">
             <div class="card-body">
             <h5 class="card-title">Ingresar Dinero</h5>
-            <a id="Butom-2" href="#" class="btn btn-primary">Ir</a>
+            <a id="Butom-2" href="#" onclick="ingresar_dinero()" class="btn btn-primary btn-warning text-white">IR</a>
             </div>
         </div>
-        <div class="card g-col-6 g-col-md-4" style="width: 20rem;">
-            <img src="http://c.files.bbci.co.uk/CB75/production/_126558025_gettyimages-1387095038.jpg" class="card-img-top" alt="...">
+        <!------------------------------------------------------------------------------------------------------------------->
+        <div class="card mar" style="width: 20rem;">
+            <img src="http://c.files.bbci.co.uk/CB75/production/_126558025_gettyimages-1387095038.jpg" class="card-img-top tam_2" alt="...">
             <div class="card-body">
             <h5 class="card-title">Retirar Dinero</h5>
-            <a id="Butom-3" href="#" class="btn btn-primary">IR</a>
+            <a id="Butom-3" href="#" onclick="retirar_dinero()" class="btn btn-primary btn-warning text-white">IR</a>
             </div>
         </div>
-        <div class="card g-col-6 g-col-md-4" style="width: 20rem;">
+        <!------------------------------------------------------------------------------------------------------------------->
+        <div class="card mar" style="width: 20rem;">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd8QmVCAI-uFu2BH0HohjvDVIUAqQAZtvXL4vC6ABSdbqf1Z48QMZulBiWDAryEtCuHd4&usqp=CAU" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Cerrar Sesion</h5>
-            <a id="Butom-4" href="#" onclick="salir()" class="btn btn-primary">Cerrar</a>
+            <a id="Butom-4" href="#" onclick="salir()" class="btn btn-primary btn-warning text-white">Cerrar</a>
             </div>
         </div>
+        <!------------------------------------------------------------------------------------------------------------------->
     </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
